@@ -1,0 +1,553 @@
+body {
+    background-color: #FAFAFC;
+}
+
+/*
+
+    table of content
+
+    // intial set
+    h1
+    h2
+    h3
+    h4
+    h5
+    p
+    span
+    .btn-blue
+    .btn-orange
+
+    // content
+    nav 
+    header
+    main
+    footer
+
+*/
+
+// for title page
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+}
+
+// for title section
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+    color: #363636;
+}
+
+// for title class in card, title learning path
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    color: #363636;
+}
+
+// footer title, 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    color: #363636;
+}
+
+// mentor name at class
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: #494949;
+    margin: 0;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #666666;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+}
+
+// button orange
+.btn-orange {
+    width: 300px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FF7612;
+
+    &:hover {
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #ff8229;
+    }
+}
+
+// button blue
+.btn-blue {
+    width: 300px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4F77DC;
+
+
+    &:hover {
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #5a86f5;
+    }
+}
+
+/*
+    index.html
+*/
+// navigasi bar
+nav {
+    background-color: #0037C0;
+
+    .container { 
+        .navbar-collapse {
+            ul {
+                li {
+                    a {
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            form {
+                .btn-login {
+                    background-color: #4f77dc;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// headeer
+header {
+    position: relative;
+    height: 600px;
+    background-color: #0037C0;
+
+    svg {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10vw;
+        fill: #fafafa;
+    }
+
+    .content-header {
+        margin-top: 180px;
+
+        p {
+            color: #ffffff;
+        }
+
+        .btn-orange {
+            margin-top: 75px;
+        }
+    }
+}
+
+// main
+main {
+    // section partners
+    .section-partners {
+        margin-top: 120px;
+    }
+
+    // section class 
+    .section-class {
+        margin-top: 200px;
+
+        .container {
+            .card-class {
+                height: 430px;
+                width: 340px;
+                padding: 20px;
+                border: 2px solid #c4c4c4;
+
+                .card-body-class {
+                    margin: 20px 0;
+
+                    table {
+                        th {
+                            width: 50%;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 28px;
+                            font-weight: 500;
+                            line-height: 30px;
+                            color: #363636;
+                        }
+
+                        td {
+                            width: 50%;
+                            font-family: 'Rubik', sans-serif;
+                            font-size: 20px;
+                            font-weight: 300;
+                            line-height: 20px;
+                            color: #666666;
+                        }
+                    }
+                }
+
+                hr {
+                    border: 1px solid #c4c4c4;
+                }
+
+                .mentor {
+                    .mentor-info {
+                        margin-left: 10px;
+                        float: left;
+                    }
+
+                    .img-user {
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+
+    // section reason
+    .section-reason {
+        margin-top: 200px;
+
+        .container-fluid {
+            p {
+                margin-top: 15px;
+            }
+
+            .card-reason {
+                height: 200px;
+                width: 200px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 20px 0 0 20px;
+                }
+
+                .card-body {
+                    padding: 0;
+
+                    .card-title {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 0;
+                        color: #363636;
+                        margin: 68px 15px 15px 35px;
+                        text-align: right;
+                    }
+                }
+
+                &:hover {
+                    background-color: #fdfdfd;
+                    box-shadow: 5px 2px 10px #dbdbdb;
+                    transform: rotate(-0.5deg);
+                }
+            }
+        }
+    }
+
+    // section program
+    .section-program {
+        margin-top: 200px;
+
+        .container-fluid {
+            img {
+                width: 280px;
+                height: 160px;
+                margin: 20px;
+            }
+        }
+    }
+
+    .section-testimonial{
+        margin-top: 200px;
+
+    .card-testimonial{
+        width: 356px;
+    }        
+    }
+}
+
+// footer
+footer{
+    margin-top: 200px;
+}
+
+/*
+details.html
+*/
+.header-details{
+    height: 565px;
+
+    .content-header-details{
+        margin-top: 170px;
+
+        p{
+            color: #ffffff;
+        }
+    }
+}
+
+.main-details{
+    margin-top: -140px;
+
+    .section-content{
+
+        // content
+        .content{
+            .excellence-card-row{
+                .card-excellence{
+                    height: 130px;
+                    width: 240px;
+    
+                    img{
+                        height: 50px;
+                        width: 50px;
+                        margin: 20px 0 0 20px;
+                    }
+                }
+            }
+    
+            .about-class{
+                margin-top: 50px;
+            }
+            
+            .to-be-studied{
+                margin-top: 50px;
+                .accordion-row{
+                    .accordion-item{
+                        .accordion-collapse{
+                            .accordion-fixed{
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                padding: 1rem 1.25rem;
+                                font-size: 1rem;
+                                color: #212529;
+                                background-color: transparent;
+                                border: 1px solid rgba(0,0,0,.125);
+                                border-radius: 0;
+                                overflow-anchor: none
+                            }
+                        }
+                    }
+                }
+        
+            }
+        }
+        
+        // sidebar content
+        .sidebar-content{
+            .card-preview{
+                height: 460px;
+
+                h3{
+                    margin: 15px 0 0 20px;
+                }
+
+                .video-preview{
+                    height: 40px;
+                    margin: 5px 20px;
+                    padding: 5px 15px;
+                    color: #383838;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-align: center;
+                    background-color: #e0e0e0;
+                    border-radius: 5px;
+                }
+
+                .btn-card-preview{
+                    width: auto;
+                    margin: auto 20px 10px 20px;
+                }
+            }
+
+            .tools{
+                margin-top: 100px;
+            }
+
+            .os{
+                margin-top: 50px;
+            }
+
+            .ram{
+                margin-top: 50px;
+            }
+
+            .empty-space{
+                margin-top: 50px;
+            }
+        }
+
+    }
+
+    .section-checkout{
+        margin-top: 200px;
+
+        // class
+        .card-class {
+            height: 430px;
+            width: 340px;
+            padding: 20px;
+            border: 2px solid #c4c4c4;
+
+            .card-body-class {
+                margin: 20px 0;
+
+                table {
+                    th {
+                        width: 50%;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 28px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        color: #363636;
+                    }
+
+                    td {
+                        width: 50%;
+                        font-family: 'Rubik', sans-serif;
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 20px;
+                        color: #666666;
+                    }
+                }
+            }
+
+            hr {
+                border: 1px solid #c4c4c4;
+            }
+
+            .mentor {
+                .mentor-info {
+                    margin-left: 10px;
+                    float: left;
+                }
+
+                .img-user {
+                    float: left;
+                }
+            }
+        }
+
+        .card-checkout{
+            height: 430px;
+            width: 340px;
+            padding: 20px;
+            border: 2px solid #c4c4c4;
+
+            p{
+                font-size: 16px;
+            }
+            
+            form{
+                label{
+                    color: #666666;
+                }
+                input{
+                    color: #666666;
+                }
+            }
+
+        }
+    }
+}
+
+/*
+    learning-room.html
+*/
+
+.side-content{
+margin-top: 70px;
+height: 90%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #FAFAFC;
+border-right: 1px solid #818181;
+overflow-x: hidden;
+transition: 0.5s;
+padding: 40px 0;
+
+    ul{
+        margin-bottom: 50px;
+        .video-lesson{
+            height: 40px;
+            margin: 5px 20px;
+            padding: 5px 15px;
+            color: #383838;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow-x: hidden;
+        }
+    }
+}
+
+.main-learning-room{
+    margin-top: 70px;
+
+    .open-btn{
+        top: 70px;
+        right: 25px;
+        position: sticky;
+        font-size: 36px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .close-btn{ 
+        top: 60px;
+        right: 25px;
+        font-size: 36px;
+        position: sticky;
+        margin-left: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .content-learning-room{
+
+        .video-lesson-content{
+            width: 60%;
+            
+        }
+    }
+}
